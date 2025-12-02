@@ -2,7 +2,7 @@ body {
     font-size: 15pt;
     background-image:url("image/images (2).jpeg") ;
     background-repeat:no-repeat ;
-    background-size:1700px ;
+    background-size:170px ;
     background-position:center;
 }
 h1{
@@ -50,7 +50,7 @@ animation: slideIn 1s ease-out forwards;
 
 h2{
     color:#fff;
-    font-size: 37px;
+    font-size: 27px;
     font-family: bold;
 }
 li{
