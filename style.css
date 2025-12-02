@@ -1,0 +1,86 @@
+body {
+    font-size: 15pt;
+    background-image:url("image/images (2).jpeg") ;
+    background-repeat:no-repeat ;
+    background-size:1700px ;
+    background-position:center;
+}
+h1{
+    color:#fff;
+    text-align: center;
+    font-family: bold;
+    animation-name: hel;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes hel{
+    0%{
+        background-color: lime;
+    }
+    20%{
+        background-color: gold;
+    }
+    40%{
+        background-color: darkcyan;
+    }
+    80%{
+        background-color: darkorchid;
+    }
+    100%{
+        background-color: indianred;
+    }
+}
+p{
+    color:#fff;
+    font-size: 35px;
+    font-family: monospace;
+}
+.slide-in{
+    opacity: 0;
+transform: translateY(20px);
+animation: slideIn 1s ease-out forwards;
+}
+
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h2{
+    color:#fff;
+    font-size: 37px;
+    font-family: bold;
+}
+li{
+    color:#fff;
+    font-size: 30px;
+    margin: 4px;
+    padding: 5px;
+}
+h3{
+    color:#fff;
+    font-size: 30px;
+}
+img{
+    width: 1000px;
+    height:220px;
+}
+button{
+    border-radius: 25px solid#000;
+    height: 90px;
+    width: 300px;
+    padding: 5px;
+    margin: 70px;
+    cursor:pointer;
+    background: mediumaquamarine;
+    box-shadow: 1px 3px 5px 2px darkcyan;
+    border:none;
+}
+a{
+    text-decoration: none;
+    color:rgba(0, 0, 0, 1);
+    font-size: 30px;
+    font-weight: bold;
+}
